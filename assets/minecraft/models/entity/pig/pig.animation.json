@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pigsitting": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-27.5, 0, 0],
+					"position": [0, -4, 1]
+				},
+				"head": {
+					"position": [0, 0, 1]
+				},
+				"leg0": {
+					"rotation": [-90, 15, 0],
+					"position": [-1, -4, 0]
+				},
+				"leg1": {
+					"rotation": [-90, -15, 0],
+					"position": [1, -4, 0]
+				}
+			}
+		}
+	}
+}

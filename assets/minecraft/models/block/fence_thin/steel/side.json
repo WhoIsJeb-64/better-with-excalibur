@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_thin/side",
+  "textures": {
+    "center": "minecraft:block/fence_steel/center"
+  }
+}

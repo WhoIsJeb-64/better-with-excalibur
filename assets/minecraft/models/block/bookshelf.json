@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/bookshelf_template",
+	"textures": {
+		"end": "minecraft:block/bookshelf/top",
+		"side": "minecraft:block/bookshelf/side"
+	}
+}

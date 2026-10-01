@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_thin/inventory",
+  "textures": {
+    "column": "minecraft:block/fence_steel/column",
+    "center": "minecraft:block/fence_steel/center"
+  }
+}

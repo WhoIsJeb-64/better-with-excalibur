@@ -1,0 +1,172 @@
+{
+    "model_paths": [
+        "/assets/minecraft/models/entity/sheep/sheep.geo.json",
+        "/assets/minecraft/models/entity/creeper/creeper.geo.json",
+        "/assets/minecraft/models/entity/scorpion/scorpion.geo.json",
+        "/assets/minecraft/models/entity/pig/pig.geo.json",
+        "/assets/minecraft/models/entity/chicken/chicken.geo.json",
+        "/assets/minecraft/models/entity/cow/cow.geo.json",
+        "/assets/minecraft/models/entity/wolf/wolf.geo.json",
+        "/assets/minecraft/models/entity/deer/deer.geo.json",
+        "/assets/minecraft/models/entity/skeleton/skeleton.geo.json",
+        "/assets/minecraft/models/entity/zombie/zombie.geo.json",
+        "/assets/minecraft/models/entity/pigman/pigman.geo.json",
+        "/assets/minecraft/models/entity/pigzombie/pigzombie.geo.json",
+        "/assets/minecraft/models/entity/spider/spider.geo.json",
+        "/assets/minecraft/models/entity/squid/squid.geo.json",
+        "/assets/minecraft/models/entity/ghast/ghast.geo.json",
+        "/assets/minecraft/models/entity/slime/slime.geo.json",
+        "/assets/minecraft/models/entity/minecart/minecart.geo.json",
+        "/assets/minecraft/models/entity/boat/boat.geo.json",
+        "/assets/minecraft/models/entity/cannonball/cannonball.geo.json",
+        "/assets/minecraft/models/entity/humanoid.geo.json",
+        "/assets/minecraft/models/entity/secret.geo.json",
+        "/assets/minecraft/models/entity/player/player.geo.json",
+        "/assets/minecraft/models/entity/sign/sign.geo.json",
+        "/assets/minecraft/models/entity/flag/flag.geo.json"
+    ],
+    "custom_player_models": {
+        "9af822f9-ed7c-4afc-be28-2bd5b8c40b50": {
+            "main": "geometry.player.base.melon",
+            "arms": "geometry.player.base.melon.arms"
+        },
+        "f9b18145-2be6-4817-8afb-a36e91369d2a": {
+            "main": "geometry.player.base.melon",
+            "arms": "geometry.player.base.melon.arms"
+        },
+        "f73086f5-d583-408b-a65c-d2dbdd9afaae": {
+            "main": "geometry.player.base.boar"
+        },
+        "49f6ea39-30b2-4441-b07c-7bfe0beeb61e": {
+            "main": "geometry.player.base.shign"
+        },
+        "badff6b8-7ac7-4385-b11b-1e3d6a3649a0": {
+            "main": "geometry.player.base.silvy"
+        }
+    },
+    "renderers": {
+        "minecraft:spider": {
+            "main":"geometry.spider"
+        },
+        "minecraft:scorpion": {
+            "main":"geometry.scorpion"
+        },
+        "minecraft:pig": {
+            "main":"geometry.pig",
+            "saddle":{"model":"geometry.pig", "inflation": 0.5}
+        },
+        "minecraft:sheep": {
+            "main":"geometry.sheep.sheared",
+            "wool":"geometry.sheep.wool"
+        },
+        "minecraft:cow": {
+            "main":"geometry.cow"
+        },
+        "minecraft:wolf": {
+            "main":"geometry.wolf",
+            "armor":{"model":"geometry.wolf", "inflation":0.5}
+        },
+        "minecraft:chicken": {
+            "main":"geometry.chicken"
+        },
+        "minecraft:deer": {
+            "main":"geometry.deer"
+        },
+        "minecraft:creeper": {
+            "main":"geometry.creeper",
+            "charged":"geometry.creeper.charged"
+        },
+        "minecraft:skeleton": {
+            "main":"geometry.skeleton",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:zombie": {
+            "main":"geometry.zombie",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:zombie_pigman": {
+            "main":"geometry.zombie.pig",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:snowman": {
+            "main":"geometry.zombie"
+        },
+        "minecraft:zombie_armored": {
+            "main":"geometry.zombie",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:slime": {
+            "main":"geometry.slime"
+        },
+        "minecraft:player": {
+            "main":"geometry.player.base.steve",
+            "main.slim":"geometry.player.base.alex",
+            "arms":"geometry.player.base.steve.arms",
+            "arms.slim":"geometry.player.base.alex.arms",
+            "cape":"geometry.player.cape",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:human": {
+            "main":"geometry.player.base.steve",
+            "main.slim":"geometry.player.base.alex",
+            "arms":"geometry.player.base.steve.arms",
+            "arms.slim":"geometry.player.base.alex.arms",
+            "cape":"geometry.player.cape"
+        },
+        "minecraft:giant": {
+            "main":"geometry.zombie",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        },
+        "minecraft:ghast": {
+            "main":"geometry.ghast"
+        },
+        "minecraft:squid": {
+            "main":"geometry.squid"
+        },
+        "minecraft:boat": {
+            "main":"geometry.boat"
+        },
+        "minecraft:minecart": {
+            "main":"geometry.minecart"
+        },
+        "minecraft:cannonball": {
+            "main":"geometry.cannonball"
+        },
+        "minecraft:sign": {
+            "post":"geometry.sign.post",
+            "wall":"geometry.sign.wall"
+        },
+        "minecraft:flag": {
+            "pole.long":"geometry.flag.pole.long",
+            "pole.short":"geometry.flag.pole.short",
+            "cloth":"geometry.flag.cloth",
+            "cloth.mirror":"geometry.flag.cloth.mirror"
+        },
+        "minecraft:statue_stone": {
+            "main":"geometry.player.base.steve",
+            "main.pigman":"geometry.pigman",
+            "armor.boots":{"model":"geometry.humanoid.armor.boots", "inflation": 1},
+            "armor.leggings":{"model":"geometry.humanoid.armor.leggings", "inflation": 0.5},
+            "armor.chestplate":{"model":"geometry.humanoid.armor.chestplate", "inflation": 1},
+            "armor.helmet":{"model":"geometry.humanoid.armor.helmet", "inflation": 1}
+        }
+    }
+}

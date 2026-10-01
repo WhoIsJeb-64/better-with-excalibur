@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab/upper",
+  "textures": {
+    "top": "minecraft:block/cobbled_gloomstone",
+    "bottom": "minecraft:block/cobbled_gloomstone",
+    "side": "minecraft:block/cobbled_gloomstone"
+  }
+}

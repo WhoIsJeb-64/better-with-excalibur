@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/bookshelf_template",
+	"textures": {
+		"end": "dyables:block/bookshelf/brown/top",
+		"side": "dyables:block/bookshelf/brown/side"
+	}
+}

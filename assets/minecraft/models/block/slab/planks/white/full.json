@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/planks/white_chiseled_top",
+    "side": "minecraft:block/planks/white_chiseled"
+  }
+}

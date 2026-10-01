@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button/inventory",
+  "textures": {
+    "texture": "minecraft:block/planks/blue"
+  }
+}

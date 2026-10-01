@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block_thin",
+	"textures": {
+		"1": "block/trapdoor/planks_brown/side",
+		"particle": "block/trapdoor/planks_brown/top",
+		"texture": "block/trapdoor/planks_brown/top"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 13, 0]},
+			"faces": {
+				"north": {"uv": [16, 3, 0, 0], "rotation": 180, "texture": "#1", "cullface": "north"},
+				"east": {"uv": [3, 0, 0, 16], "rotation": 90, "texture": "#texture", "cullface": "east"},
+				"south": {"uv": [0, 16, 16, 13], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [3, 16, 0, 0], "rotation": 90, "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		}
+	]
+}
