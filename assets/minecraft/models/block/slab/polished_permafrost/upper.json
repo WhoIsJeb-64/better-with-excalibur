@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab/upper",
+  "textures": {
+    "top": "minecraft:block/permafrost/polished",
+    "bottom": "minecraft:block/permafrost/polished",
+    "side": "minecraft:block/permafrost/carved"
+  }
+}

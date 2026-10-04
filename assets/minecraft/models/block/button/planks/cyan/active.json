@@ -1,6 +1,25 @@
 {
-  "parent": "minecraft:block/button/active",
-  "textures": {
-    "texture": "minecraft:block/planks/cyan"
-  }
+	"textures": {
+		"0": "minecraft:block/button/planks/cyan",
+		"particle": "minecraft:block/button/planks/cyan"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [5, 0, 5],
+			"to": [11, 1, 11],
+			"faces": {
+				"north": {"uv": [5, 14, 11, 15], "texture": "#0"},
+				"east": {"uv": [5, 14, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 14, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 14, 11, 15], "texture": "#0"},
+				"up": {"uv": [5, 11, 11, 5], "texture": "#0"},
+				"down": {
+					"uv": [5, 5, 11, 11],
+					"texture": "#0",
+					"cullface": "down"
+				}
+			}
+		}
+	]
 }

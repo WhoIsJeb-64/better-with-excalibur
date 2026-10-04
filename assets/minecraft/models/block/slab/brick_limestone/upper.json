@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab/upper",
   "textures": {
-    "top": "minecraft:block/brick_limestone",
-    "bottom": "minecraft:block/brick_limestone",
-    "side": "minecraft:block/brick_limestone"
+    "top": "minecraft:block/limestone/brick",
+    "bottom": "minecraft:block/limestone/brick",
+    "side": "minecraft:block/limestone/brick"
   }
 }

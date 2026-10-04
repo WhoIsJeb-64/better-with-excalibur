@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/seat_template",
+  "textures": {
+    "side": "minecraft:block/seat/side",
+    "top": "minecraft:block/seat/top"
+  }
+}

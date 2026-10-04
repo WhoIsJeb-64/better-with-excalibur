@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/button/inventory",
-  "textures": {
-    "texture": "minecraft:block/planks/cyan"
-  }
+    "parent": "block/button/inventory",
+    "textures": {
+        "texture": "minecraft:block/button/planks/cyan"
+    }
 }

@@ -1,7 +1,7 @@
 {
-	"parent": "minecraft:block/seat",
-	"textures": {
-		"side": "dyables:block/bed/yellow/foot_front",
-		"top": "dyables:block/seat/top_yellow"
-	}
+  "parent": "minecraft:block/seat_template",
+  "textures": {
+    "side": "dyables:block/seat/yellow/side",
+    "top": "dyables:block/seat/yellow/top"
+  }
 }
