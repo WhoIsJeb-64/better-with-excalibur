@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/layer/height1",
+  "textures": {
+    "top": "minecraft:block/slate/top",
+    "bottom": "minecraft:block/slate/top",
+    "side": "minecraft:block/slate/side"
+  }
+}

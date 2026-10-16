@@ -36,7 +36,7 @@
 	"elements": [
 		{
 			"from": [0, 0, 0],
-			"to": [16, 2, 16],
+			"to": [16, 1, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 0, -1]},
 			"faces": {
 				"north": {"uv": [0, 12, 16, 16], "texture": "#texture"},

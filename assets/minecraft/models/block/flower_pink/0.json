@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/tinted_cross",
   "textures": {
-    "cross": "minecraft:block/flower_pink/0"
+    "cross": "minecraft:block/flower/orchid/0"
   }
 }

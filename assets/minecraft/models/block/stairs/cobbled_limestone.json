@@ -3,6 +3,6 @@
 	"textures": {
 		"top": "minecraft:block/limestone/cobbled",
 		"bottom": "minecraft:block/limestone/cobbled",
-		"side": "minecraft:block/limestone/cobbled"
+		"side": "minecraft:block/limestone/cobbled_stairs"
 	}
 }

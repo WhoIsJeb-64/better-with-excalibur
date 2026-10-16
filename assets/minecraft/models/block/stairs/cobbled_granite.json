@@ -1,8 +1,62 @@
 {
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/stairs",
 	"textures": {
-		"top": "minecraft:block/granite/cobbled",
-		"bottom": "minecraft:block/granite/cobbled",
-		"side": "minecraft:block/granite/cobbled"
+		"1": "block/granite/cobbled",
+		"particle": "block/granite/cobbled_stairs",
+		"top": "block/granite/cobbled_stairs"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#top"},
+				"up": {"uv": [8, 0, 16, 16], "texture": "#1", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, -135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, -90, 0]
+		}
 	}
 }

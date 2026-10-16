@@ -1,7 +1,7 @@
 {
-	"parent": "minecraft:block/cube_column",
+	"parent": "minecraft:block/bookshelf_template",
 	"textures": {
-		"end": "minecraft:block/planks/yellow",
-		"side": "dyables:block/bookshelf/side_yellow"
+		"end": "dyables:block/bookshelf/yellow/top",
+		"side": "dyables:block/bookshelf/yellow/side"
 	}
 }

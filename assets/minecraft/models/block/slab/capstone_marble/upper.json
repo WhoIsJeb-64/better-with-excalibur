@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab/upper",
+  "textures": {
+    "top": "minecraft:block/marble/capstone_top",
+    "bottom": "minecraft:block/marble/capstone_top",
+    "side": "minecraft:block/marble/carved"
+  }
+}
